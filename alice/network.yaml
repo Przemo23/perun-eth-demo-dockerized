@@ -1,0 +1,15 @@
+peers:
+  alice:
+    perunID: 0x05e71027e7d3bd6261de7634cf50F0e2142067C4
+    hostname: 172.17.0.3
+    port: 8082
+
+  bob:
+    perunID: 0xA298Fc05bccff341f340a11FffA30567a00e651f
+    hostname: 172.17.0.4
+    port: 8083
+    
+  carl:
+    perunID: 0x05e71027e7d3bd6261de7634cf50F0e2142067C5
+    hostname: 172.17.0.5
+    port: 8084	
