@@ -25,7 +25,7 @@ docker run -it -p 8082:8081 alice
 and
 ```sh
 docker build -t bob .
-docker run -it -p 8083:8081 bib
+docker run -it -p 8083:8081 bob
 
 ```
 It is important to execute the commands in such order, otherwise the state channels won't be established.
