@@ -19,13 +19,13 @@ docker run -it -p 8081:8081 ganache
 The next step is to activate the clients. Enter the corresponding directories and run in different consoles:
 ```sh
 docker build -t alice .
-docker run -it -p 8082:8081 ganache
+docker run -it -p 8082:8081 alice
 
 ```
 and
 ```sh
-docker build -t ganache .
-docker run -it -p 8083:8081 ganache
+docker build -t bob .
+docker run -it -p 8083:8081 bib
 
 ```
 It is important to execute the commands in such order, otherwise the state channels won't be established.
