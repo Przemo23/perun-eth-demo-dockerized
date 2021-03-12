@@ -9,7 +9,7 @@ channel:
   challengeDurationSec: 60
 
 node:
-  ip: 172.17.0.4
+  ip: 172.17.0.3
   port: 8083
   dialTimeout: 30s
   handleTimeout: 30s
@@ -17,7 +17,7 @@ node:
   persistencePath: /tmp/bob_database
 
 chain:
-  url: ws://172.17.0.2:8081
+  url: ws://159.253.153.212:8081
   contractsetup: validate
   adjudicator: 0xDc4A7e107aD6dBDA1870df34d70B51796BBd1335
   assetholder: 0xb051EAD0C6CC2f568166F8fEC4f07511B88678bA
